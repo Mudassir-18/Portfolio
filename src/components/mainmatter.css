@@ -1,12 +1,13 @@
-*{
+* {
     box-sizing: border-box;
     background-color: #222831;
 }
-.MainMatterDiv{
+
+.MainMatterDiv {
     background-color: #31363F;
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     padding: 2rem;
     width: 100%;
     /* background-color: pink; */
@@ -14,22 +15,25 @@
     /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
     height: 100%;
 }
-.workdiv{
+
+.workdiv {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     width: 50%;
     background-color: #31363F;
-    
-    
+
+
 }
-.dpdiv{
+
+.dpdiv {
     width: 50%;
     height: 50%;
     background-color: #31363F;
 }
-#nameintro{
+
+#nameintro {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #76ABAE;
     padding: 0;
@@ -38,47 +42,54 @@
     text-align: center;
     font-size: 2rem;
 }
-#h1work{
+
+#h1work {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #EEEEEE;
     background-color: #31363F;
     font-size: 2rem;
 }
 
-#dp{
+#dp {
     margin-left: 20%;
     width: 40%;
     transition: transform 1s ease;
-  
+
 }
+
 /* #dp:hover{
     transform: rotate(360deg);
 } */
-@media only screen and (max-width:600px){
-    #dp{
+@media only screen and (max-width:600px) {
+    #dp {
         width: 80%;
         height: 100%;
         object-fit: contain;
         margin-left: 10%;
     }
-    #h1work{
+
+    #h1work {
         font-size: 2rem;
         width: 100%;
 
     }
-    .MainMatterDiv{
+
+    .MainMatterDiv {
         flex-direction: column-reverse;
     }
-    .dpdiv{
-       padding: 2rem;
-       width: 100%;
-       height: 100%;
+
+    .dpdiv {
+        padding: 2rem;
+        width: 100%;
+        height: 100%;
     }
-    .workdiv{
+
+    .workdiv {
         width: 100%;
         margin-left: 20%;
     }
-    #nameintro{
+
+    #nameintro {
         text-align: center;
         margin-right: 15%;
     }

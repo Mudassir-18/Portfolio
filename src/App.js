@@ -5,15 +5,17 @@ import Projectslist from "./components/Projectslist";
 import './App.css'
 import Skills from "./components/Skills";
 import Navbar from "./components/Navbar";
+import { Footer } from "./Footer";
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <MainMatter/>
+      <Navbar />
+      <MainMatter />
       {/* <Socials/> */}
-      <Skills/>
-      <ProjectsHeading/>
-      <Projectslist/>
+      <Skills />
+      <ProjectsHeading />
+      <Projectslist />
+      <Footer />
     </div>
   );
 }
