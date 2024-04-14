@@ -1,0 +1,63 @@
+.skill-main-div{
+    margin-top: 5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #EEEEEE;
+    width: 100%;
+    height: 100%;
+}
+.skillquestion{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+#skill-qn-h3{
+   color: #F5E8C7;
+}
+#skill-ans-p{
+    font-weight: lighter;
+    color:  #EEEEEE;
+}
+
+.skills-description{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.skills-desc{
+    width: 20%;
+    height: 30%;
+    transition: transform 0.3s ease;
+}
+.skills-desc:hover{
+    transform: scale(1.1);
+}
+#skills-alphabet{
+    background-color: #76ABAE;
+    padding: 1rem;
+    border-radius: 0% 20% 20% 0%;
+    width: 20%;
+    color: #EEEEEE;
+}
+#skills-explantion{
+    font-weight: lighter;
+    word-spacing: 2px;
+    background-color: #EEEEEE;
+    padding: 2rem;
+    color: #393e46;
+}
+
+@media only screen and (max-width:600px){
+    .skills-description{
+        flex-direction: column;
+    }
+    .skills-desc{
+        width: 80%;
+    }
+    #skill-qn-h3{
+        text-align: center;
+    }
+}

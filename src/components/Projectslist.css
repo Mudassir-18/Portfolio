@@ -1,0 +1,33 @@
+.projectslist-maindiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.projectslist-subdiv{
+    width: 30%;
+    height: 15rem;
+    margin: 2rem;
+    background-color: #393e46;
+    color: #ffffff;
+    position: relative;
+}
+.projectslist-subdiv{
+    opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.projectslist-subdiv.loaded{
+opacity: 1;
+transform: translateY(0);}
+#project-title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+@media  only screen and (max-width: 600px) {
+    .projectslist-maindiv{
+        flex-direction: column;
+    }
+    .projectslist-subdiv{
+        width: 80%;
+    }
+}

@@ -1,0 +1,13 @@
+#prjth1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #272343;
+margin-left: 2rem;
+margin-top: 3rem;
+}
+@media only screen and (max-width:600px)
+{
+    #prjth1{
+        width: 100%;
+       
+    }
+}
